@@ -22,6 +22,8 @@ namespace BinarySearchTree
             search.Insert(67);
             search.Display();
             search.GetSize();
+            bool result = search.SearchNode(67, search);
+            Console.WriteLine( result);
         }
     }
 }
